@@ -1,0 +1,7 @@
+@function btnShadow($color:$primary) {
+  @return 0 4px 17px rgba($color, 60%);
+}
+
+@function borderLikeShadow($spread:13px) {
+  @return 0px 0px 0px $spread rgb(#E5E5E5, 31%);
+}
