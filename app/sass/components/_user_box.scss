@@ -1,0 +1,34 @@
+.user_box{
+    grid-area: u;
+    min-width: 330px;
+    max-width: 330px;
+    height: 10vh;
+    background-color:$white;
+    border-radius: 10px ;
+    box-shadow: $box-shadow;
+    display: flex;
+    align-content: center;
+    padding-inline: 20px;
+    .user_box_content{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 55px;
+        .user_box_avatar{
+            width: 60px;
+        }
+        h1{
+            font-size: 1.1rem;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+        .icon{
+             width: 20px;
+
+             padding: 6px;
+            margin-top: 20px;
+
+            
+        }
+    }
+}

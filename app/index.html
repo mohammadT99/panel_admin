@@ -1,14 +1,46 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <title>panel</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="./css/app.css">
-</head>
-<body>
-    <p class="text-2xl">خویسی سیسی</p>
+<html lang="en" dir="rtl">
 
-<script src="../src/js/index.js"></script>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>panel</title>
+    <!-- <script src="https://cdn.tailwindcss.com"></script>     -->
+    <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="./public/font/kalame/stylesheet.css">
+    <!-- <script src="../src/js/index.js"></script> -->
+</head>
+
+<body>
+    <!-- warpper -->
+    <main class="wrapper" id="root">
+        <div id="menuOverlay" class="menu_overlay"></div>
+        <!-- userbox -->
+        <div class="user_box" id="userBox">
+            <div class="user_box_content">
+                <img class="user_box_avatar" src="./public/image/user" alt="profile image" />
+                <h1>محمد طاهری</h1>
+                <span class="icon" onclick="func()"  >
+                    <img src="./public/icon/notification.svg" alt="" > 
+                    <p class="hidden " id="demo"></p>
+                </span>
+                
+            </div>
+        </div>
+        <!-- sidebar -->
+        <div class="sidebar" id="sidebar">
+        </div>
+<!--        <div class="content">-->
+<!--    ccc-->
+<!--        </div>-->
+<!--        module-->
+        <div class="module" id="notification">
+
+        </div>
+    </main>
+    <script src="../src/js/index.js"></script>
+   
+
 </body>
+
 </html>

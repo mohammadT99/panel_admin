@@ -1,0 +1,16 @@
+.wrapper{
+    padding-inline: 25px;
+    padding-block: 25px;
+   display: grid;
+   grid-template-areas: 
+    " u u u u c c c c c c c c"
+    " u u u u c c c c c c c c"
+    " s s s s c c c c c c c c"
+    " s s s s c c c c c c c c"
+   ;
+   gap: 20px;
+  .content{
+    grid-area: c;
+  }
+}
+
